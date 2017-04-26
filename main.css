@@ -1,0 +1,8 @@
+html { 
+  background: url(data/pictures/Pictures/niyagu.jpg) no-repeat center center fixed; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Asthetic spiritual newtab",
+  "description": "This extension over your new tab with beautiful pictures and quotations from poets, visionaries and mystics",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "data/icon.jpg"
+  },
+
+    "chrome_url_overrides": {
+	"newtab": "index.html"
+    },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
